@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "winrar"
+version = "0.1.0"
+description = ""
+authors = ["dopefile <merlinincorp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bitarray = "^2.9.2"
+colorama = "^0.4.6"
+textual = "^0.58.1"
+termcolor = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
